@@ -21,20 +21,21 @@ The goal of this repository is to demonstrate the application of Cypress for aut
 
 The Cypress tests cover multiple features and behaviors, including:
 
-- ✅ Multi-page navigation flow
-- ✅ Form interactions and validations
-- ✅ Intercepts and mock API calls using `cy.intercept()`
-- ✅ Component-level behaviors (grudges list interactions)
-- ✅ DOM assertions with `cy.should()`, `cy.within()`, and custom selectors
-- ✅ Use of `data-testid` attributes for stability
+- Multi-page navigation flow
+- Form interactions and validations
+- Intercepts and mock API calls using `cy.intercept()`
+- Component-level behaviors (grudges list interactions)
+- DOM assertions with `cy.should()`, `cy.within()`, and custom selectors
+- Use of `data-testid` attributes for stability
 
 Tests are located in:
+```bash
 cypress/
 ├── e2e/ # Main test files
 ├── fixtures/ # Test data (e.g., JSON fixtures)
 ├── support/ # Custom commands and setup
 └── cypress.config.js # Cypress config file
-
+```
 ---
 
 ## Setup and Run
