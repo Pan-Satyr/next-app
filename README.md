@@ -57,8 +57,8 @@ npm run dev
 ```
 App will be available at: http://localhost:3000
 
-Run Cypress tests
-Open the Cypress Test Runner ina separate terminal:
+### Run Cypress tests
+### Open the Cypress Test Runner ina separate terminal:
 ```bash
 npx cypress open
 ```
@@ -68,8 +68,8 @@ Run tests in headless mode:
 npx cypress run
 ```
 
-Attribution
-Original app was built using `create-next-app` and sourced from a Cypress testing course:  
+### Attribution
+### Original app was built using `create-next-app` and sourced from a Cypress testing course:  
 [freeCodeCamp.org - Learn Cypress](https://www.youtube.com/watch?v=u8vMu7viCm8)
 
 Next.js app ownership belongs to the course instructor.  
