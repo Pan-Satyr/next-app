@@ -1,14 +1,14 @@
 # Cypress Test Automation Showcase for Next.js App
 This repository contains a forked Next.js project enhanced with a small test suite of **end-to-end (E2E) Cypress tests**, created as part of a test engineering learning project.
 
-## 🔍 Purpose
+## Purpose
 The goal of this repository is to demonstrate the application of Cypress for automated testing in a modern web application. All test cases were written by me to validate some functionalities, UI behaviors in a real-world application structure.
 
-> 🛠️ Original app code was provided as part of a Cypress course from 'freeCodeCamp.org': https://www.youtube.com/watch?v=u8vMu7viCm8. My work focuses entirely on building the test suite.
+> Original app code was provided as part of a Cypress course from 'freeCodeCamp.org': https://www.youtube.com/watch?v=u8vMu7viCm8. My work focuses entirely on building the test suite.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Testing**: [Cypress](https://www.cypress.io/)
@@ -17,7 +17,7 @@ The goal of this repository is to demonstrate the application of Cypress for aut
 
 ---
 
-## 🧪 Cypress Test Coverage
+## Cypress Test Coverage
 
 The Cypress tests cover multiple features and behaviors, including:
 
@@ -37,7 +37,7 @@ cypress/
 
 ---
 
-## 🛠️ Setup and Run
+## Setup and Run
 
 ### Clone the repo
 ```bash
@@ -50,19 +50,19 @@ cd next-app
 npm install
 ```
 
-###Run the development server
+Run the development server
 ```bash
 npm run dev
 ```
 App will be available at: http://localhost:3000
 
-###Run Cypress tests
+Run Cypress tests
 Open the Cypress Test Runner ina separate terminal:
 ```bash
 npx cypress open
 ```
 
-###Run tests in headless mode:
+Run tests in headless mode:
 ```bash
 npx cypress run
 ```
